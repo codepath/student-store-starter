@@ -1,0 +1,37 @@
+header {
+  width: 100%;
+  max-width: 100vw;
+  background: #2c3f47;
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.social {
+  display: flex;
+  gap: 20px;
+  align-self: center;
+}
+.navbar {
+  width: 70%;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.nav {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.nav a {
+  text-decoration: 0;
+  font-size: 1.5rem;
+  color: white;
+}

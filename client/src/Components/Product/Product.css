@@ -1,0 +1,37 @@
+.product {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+}
+.image {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+}
+.product-info {
+  flex: 1;
+  display: flex;
+  border-top: solid 1px black;
+}
+.info {
+  color: black;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+.info p {
+  font-size: 18px;
+}
+
+.buttons {
+  padding-top: 18px;
+  padding-right: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
