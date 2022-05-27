@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Coconut Water",
       "category": "food",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/ONE_Pure_Coconut_Water.jpeg/900px-ONE_Pure_Coconut_Water.jpeg",
+      "image": "https://assets.iceland.co.uk/i/iceland/vita_coco_the_original_coconut_water_1l_65611_T1.jpg?$pdpzoom$",
       "source": "https://en.wikipedia.org/wiki/File:ONE_Pure_Coconut_Water.jpeg",
       "description": "Somehow incredibly hydrating, while also not really being water.",
       "price": 3.25
@@ -145,5 +145,294 @@
       "price": 999.99
     }
   ],
-  "purchases": []
+  "purchases": [
+    {
+      "name": "john",
+      "email": "john@gmail.com",
+      "total": 6.50325,
+      "receipt": {
+        "userInfo": {
+          "name": "john",
+          "email": "john@gmail.com"
+        },
+        "lines": [
+          "Showing receipt for john available at john@gmail.com:",
+          "2 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $5.98.",
+          "Before taxes, the subtotal was $5.98",
+          "After taxes and fees were applied, the total comes out to $6.50"
+        ],
+        "productRows": [
+          {
+            "id": 3,
+            "name": "Cinnamon Rolls",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "price": 2.99,
+            "quantity": 2,
+            "totalPrice": 5.98
+          }
+        ]
+      }
+    },
+    {
+      "name": "eqfqefq",
+      "email": "asdfasfdfa",
+      "total": 3.251625,
+      "receipt": {
+        "userInfo": {
+          "email": "asdfasfdfa",
+          "name": "eqfqefq",
+          "check": "on"
+        },
+        "lines": [
+          "Showing receipt for eqfqefq available at asdfasfdfa:",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "Before taxes, the subtotal was $2.99",
+          "After taxes and fees were applied, the total comes out to $3.25"
+        ],
+        "productRows": [
+          {
+            "id": 3,
+            "name": "Cinnamon Rolls",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "price": 2.99,
+            "quantity": 1,
+            "totalPrice": 2.99
+          }
+        ]
+      }
+    },
+    {
+      "name": "sameer",
+      "email": "aoisdjfasdnf@asmld.com",
+      "total": 295.713,
+      "receipt": {
+        "userInfo": {
+          "email": "aoisdjfasdnf@asmld.com",
+          "name": "sameer",
+          "check": "on"
+        },
+        "lines": [
+          "Showing receipt for sameer available at aoisdjfasdnf@asmld.com:",
+          "4 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $11.96.",
+          "2 total Knitted Beanie purchased at a cost of $19.99 for a total cost of $39.98.",
+          "1 total Matching Rings purchased at a cost of $200.00 for a total cost of $200.00.",
+          "1 total Mouse from 1998 purchased at a cost of $19.98 for a total cost of $19.98.",
+          "Before taxes, the subtotal was $271.92",
+          "After taxes and fees were applied, the total comes out to $295.71"
+        ],
+        "productRows": [
+          {
+            "id": 3,
+            "name": "Cinnamon Rolls",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "price": 2.99,
+            "quantity": 4,
+            "totalPrice": 11.96
+          },
+          {
+            "id": 8,
+            "name": "Knitted Beanie",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Blue_knit-cap_beanie_by_RobertLender.jpeg",
+            "source": "https://commons.wikimedia.org/wiki/File:Blue_knit-cap_beanie_by_RobertLender.jpeg",
+            "description": "Keeps your head absurdly warm while the rest of your body freezes.",
+            "price": 19.99,
+            "quantity": 2,
+            "totalPrice": 39.98
+          },
+          {
+            "id": 11,
+            "name": "Matching Rings",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wedding_rings.jpg/800px-Wedding_rings.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Wedding_rings.jpg",
+            "description": "Ball out and get one for each finger!",
+            "price": 200,
+            "quantity": 1,
+            "totalPrice": 200
+          },
+          {
+            "id": 15,
+            "name": "Mouse from 1998",
+            "category": "tech",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mouse_Microsoft_PS2.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Mouse_Microsoft_PS2.jpg",
+            "description": "Check out this fancy Microsoft mouse that was in use right before the dot com bubble crash of the 2000s! It's a collectors' item that still works great. Brings back that 'on the verge of the world collapsing' feeling.",
+            "price": 19.98,
+            "quantity": 1,
+            "totalPrice": 19.98
+          }
+        ]
+      }
+    },
+    {
+      "name": "asdjkfas",
+      "email": "asdfa@s",
+      "total": 295.713,
+      "receipt": {
+        "userInfo": {
+          "email": "asdfa@s",
+          "name": "asdjkfas",
+          "check": "on"
+        },
+        "lines": [
+          "Showing receipt for asdjkfas available at asdfa@s:",
+          "4 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $11.96.",
+          "2 total Knitted Beanie purchased at a cost of $19.99 for a total cost of $39.98.",
+          "1 total Matching Rings purchased at a cost of $200.00 for a total cost of $200.00.",
+          "1 total Mouse from 1998 purchased at a cost of $19.98 for a total cost of $19.98.",
+          "Before taxes, the subtotal was $271.92",
+          "After taxes and fees were applied, the total comes out to $295.71"
+        ],
+        "productRows": [
+          {
+            "id": 3,
+            "name": "Cinnamon Rolls",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "price": 2.99,
+            "quantity": 4,
+            "totalPrice": 11.96
+          },
+          {
+            "id": 8,
+            "name": "Knitted Beanie",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Blue_knit-cap_beanie_by_RobertLender.jpeg",
+            "source": "https://commons.wikimedia.org/wiki/File:Blue_knit-cap_beanie_by_RobertLender.jpeg",
+            "description": "Keeps your head absurdly warm while the rest of your body freezes.",
+            "price": 19.99,
+            "quantity": 2,
+            "totalPrice": 39.98
+          },
+          {
+            "id": 11,
+            "name": "Matching Rings",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wedding_rings.jpg/800px-Wedding_rings.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Wedding_rings.jpg",
+            "description": "Ball out and get one for each finger!",
+            "price": 200,
+            "quantity": 1,
+            "totalPrice": 200
+          },
+          {
+            "id": 15,
+            "name": "Mouse from 1998",
+            "category": "tech",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mouse_Microsoft_PS2.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Mouse_Microsoft_PS2.jpg",
+            "description": "Check out this fancy Microsoft mouse that was in use right before the dot com bubble crash of the 2000s! It's a collectors' item that still works great. Brings back that 'on the verge of the world collapsing' feeling.",
+            "price": 19.98,
+            "quantity": 1,
+            "totalPrice": 19.98
+          }
+        ]
+      }
+    },
+    {
+      "name": "asdjkfas",
+      "email": "asdfa@s",
+      "total": 3.251625,
+      "receipt": {
+        "userInfo": {
+          "email": "asdfa@s",
+          "name": "asdjkfas",
+          "check": "on"
+        },
+        "lines": [
+          "Showing receipt for asdjkfas available at asdfa@s:",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "Before taxes, the subtotal was $2.99",
+          "After taxes and fees were applied, the total comes out to $3.25"
+        ],
+        "productRows": [
+          {
+            "id": 3,
+            "name": "Cinnamon Rolls",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "price": 2.99,
+            "quantity": 1,
+            "totalPrice": 2.99
+          }
+        ]
+      }
+    },
+    {
+      "name": "asdfasdf",
+      "email": "afdasdfas",
+      "total": 3.251625,
+      "receipt": {
+        "userInfo": {
+          "email": "afdasdfas",
+          "name": "asdfasdf",
+          "check": ""
+        },
+        "lines": [
+          "Showing receipt for asdfasdf available at afdasdfas:",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "Before taxes, the subtotal was $2.99",
+          "After taxes and fees were applied, the total comes out to $3.25"
+        ],
+        "productRows": [
+          {
+            "id": 3,
+            "name": "Cinnamon Rolls",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "price": 2.99,
+            "quantity": 1,
+            "totalPrice": 2.99
+          }
+        ]
+      }
+    },
+    {
+      "name": "afdasf",
+      "email": "efqerq",
+      "total": 3.251625,
+      "receipt": {
+        "userInfo": {
+          "email": "efqerq",
+          "name": "afdasf",
+          "check": true
+        },
+        "lines": [
+          "Showing receipt for afdasf available at efqerq:",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "Before taxes, the subtotal was $2.99",
+          "After taxes and fees were applied, the total comes out to $3.25"
+        ],
+        "productRows": [
+          {
+            "id": 3,
+            "name": "Cinnamon Rolls",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "price": 2.99,
+            "quantity": 1,
+            "totalPrice": 2.99
+          }
+        ]
+      }
+    }
+  ]
 }

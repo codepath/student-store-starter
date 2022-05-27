@@ -1,11 +1,10 @@
 import React from "react";
-import axios from "axios";
 import "./Navbar.css";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 
-function Navbar() {
+function Navbar({ setOpen }) {
   return (
     <header>
       <nav class="navbar">
@@ -19,10 +18,12 @@ function Navbar() {
           </div>
         </div>
         <div class="nav">
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Buy Now</a>
+          <a href="/#">Home</a>
+          <a href="/#about">About Us</a>
+          <a href="/#contact">Contact Us</a>
+          <a href="/#" onClick={() => setOpen(true)}>
+            Buy Now
+          </a>
         </div>
       </nav>
     </header>

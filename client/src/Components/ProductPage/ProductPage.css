@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.mm {
+  width: 50%;
+  height: 50%;
+}
+.www {
+  width: 75%;
+  margin: 8rem auto;
+}

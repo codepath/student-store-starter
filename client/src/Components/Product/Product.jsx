@@ -3,12 +3,21 @@ import StarHalfIcon from "@mui/icons-material/StarHalf";
 import "./Product.css";
 import AddBoxIcon from "@mui/icons-material/AddBox";
 import IndeterminateCheckBoxIcon from "@mui/icons-material/IndeterminateCheckBox";
-export default function ProductCard({ product }) {
-  console.log(product);
+import { useNavigate } from "react-router-dom";
+
+export default function Product({ product, addCart, removeCart }) {
+  let navigate = useNavigate();
   return (
     <div className="product">
       <div className="image">
-        <img src={product.image} alt="product cover" />
+        <img
+          style={{ cursor: "pointer" }}
+          src={product.image}
+          alt="product cover"
+          onClick={() => {
+            navigate("/" + product.id);
+          }}
+        />
       </div>
       <div className="product-info">
         <div className="info">
@@ -25,8 +34,12 @@ export default function ProductCard({ product }) {
         </div>
         <div className="actions">
           <div className="buttons">
-            <AddBoxIcon sx={{ color: "#02c385" }} />
-            <IndeterminateCheckBoxIcon sx={{ color: "#02c385" }} />
+            <button class="transparent" onClick={() => addCart(product)}>
+              <AddBoxIcon sx={{ color: "#02c385" }} />
+            </button>
+            <button class="transparent" onClick={() => removeCart(product)}>
+              <IndeterminateCheckBoxIcon sx={{ color: "#02c385" }} />
+            </button>
           </div>
         </div>
       </div>

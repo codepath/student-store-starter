@@ -1,12 +1,20 @@
 .wrapper {
   width: 75%;
   margin: 0 auto;
-  margin-top: 4rem;
+
   background: white;
+}
+.ww {
+  background: white;
+
+  padding-top: 4rem;
+
+  width: 100%;
 }
 .links {
   display: grid;
   grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+  padding-bottom: 2rem;
   border-bottom: dotted 1px gray;
 }
 

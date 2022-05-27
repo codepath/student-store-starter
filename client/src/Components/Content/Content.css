@@ -1,13 +1,14 @@
-.wrap {
+.wrapp {
   width: 75%;
   margin: 0 auto;
   padding: 0;
 }
 .poster {
   display: flex;
-  padding: 2rem;
+  padding: 4rem 0 0 0;
   background: #02c385;
 }
+
 .text {
   padding: 0 3rem;
 }
@@ -26,6 +27,14 @@
 .atext {
   background-color: white;
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.atext p {
+  color: rgb(114, 111, 111);
+  font-size: 1.5rem;
 }
 p {
   font-size: 1.5rem;
@@ -34,15 +43,16 @@ p {
   display: grid;
   grid-template-columns: 55% 45%;
 }
+
 .contactcontent {
   display: flex;
-
   background: #2c3f47;
   color: white;
   height: 420px;
   border: 1px solid #e0e0e0;
   overflow: visible;
-  justify-content: space-around;
+  gap: 300px;
+  padding-left: 4rem;
 }
 .logo {
   padding: 3rem;
@@ -59,28 +69,27 @@ p {
   height: 420px;
 }
 .info {
-  padding: 2rem;
-  color: white;
-  list-style-type: none;
-  flex: 1 1;
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.info li {
-  padding: 1.5rem;
   color: white;
-  margin-bottom: 18px;
+  justify-content: space-around;
+}
+.info div {
+  color: white;
+
   font-size: 1.5rem;
   display: flex;
 
-  align-items: center;
+  justify-content: flex-start;
   width: 100%;
 }
 #product-grid {
   display: grid;
   grid-template-columns: 24% 24% 24% 24%;
   gap: 20px;
+}
+
+.sm {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }

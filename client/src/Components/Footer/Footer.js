@@ -3,7 +3,7 @@ import React from "react";
 import "./Footer.css";
 export default function Footer() {
   return (
-    <div style={{ background: "white" }}>
+    <div class="ww">
       <div class="wrapper">
         <div class="links">
           <ul class="section">
