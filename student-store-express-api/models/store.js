@@ -15,7 +15,9 @@ class Store {
   static async listProducts() {
     return storage.get("products").value();
   }
-
+  static async listPurchases() {
+    return storage.get("purchases").value();
+  }
   static async fetchProductById(productId) {
     const product = storage
       .get("products")
@@ -25,6 +27,16 @@ class Store {
     if (product) return product;
 
     throw new NotFoundError("No product found with that id.");
+  }
+  static async fetchPurchaseById(purchaseId) {
+    const purchase = storage
+      .get("purchases")
+      .find({ id: Number(purchaseId) })
+      .value();
+
+    if (purchase) return purchase;
+
+    throw new NotFoundError("No purchase found with that id.");
   }
 
   static async purchaseProducts(cart, userInfo) {
@@ -45,8 +57,9 @@ class Store {
       products,
       userInfo,
     });
-
+    let id = storage.get("purchases").value().length + 1;
     const purchase = {
+      id: id,
       name: userInfo.name,
       email: userInfo.email,
       total,

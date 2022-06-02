@@ -20,7 +20,7 @@ export default function Sidebar({ cart, setCart, open, setOpen }) {
     let userInfo = { email: email, name: name };
     let data = { userInfo, cart };
 
-    await axios.post("http://localhost:3001/store", data);
+    await axios.post(`http://localhost:3001/store`, data);
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     check.checked = false;

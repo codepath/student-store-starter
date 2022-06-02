@@ -147,6 +147,7 @@
   ],
   "purchases": [
     {
+      "id": 1,
       "name": "john",
       "email": "john@gmail.com",
       "total": 6.50325,
@@ -177,6 +178,7 @@
       }
     },
     {
+      "id": 2,
       "name": "eqfqefq",
       "email": "asdfasfdfa",
       "total": 3.251625,
@@ -208,6 +210,7 @@
       }
     },
     {
+      "id": 3,
       "name": "sameer",
       "email": "aoisdjfasdnf@asmld.com",
       "total": 295.713,
@@ -275,6 +278,7 @@
       }
     },
     {
+      "id": 4,
       "name": "asdjkfas",
       "email": "asdfa@s",
       "total": 295.713,
@@ -342,6 +346,7 @@
       }
     },
     {
+      "id": 5,
       "name": "asdjkfas",
       "email": "asdfa@s",
       "total": 3.251625,
@@ -373,6 +378,7 @@
       }
     },
     {
+      "id": 6,
       "name": "asdfasdf",
       "email": "afdasdfas",
       "total": 3.251625,
@@ -404,6 +410,7 @@
       }
     },
     {
+      "id": 7,
       "name": "afdasf",
       "email": "efqerq",
       "total": 3.251625,
@@ -430,6 +437,262 @@
             "price": 2.99,
             "quantity": 1,
             "totalPrice": 2.99
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "someone",
+      "email": "ss@gmail.com",
+      "total": 27.165749999999996,
+      "receipt": {
+        "userInfo": {
+          "email": "ss@gmail.com",
+          "name": "someone"
+        },
+        "lines": [
+          "Showing receipt for someone available at ss@gmail.com:",
+          "1 total Striped Socks purchased at a cost of $4.99 for a total cost of $4.99.",
+          "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99.",
+          "Before taxes, the subtotal was $24.98",
+          "After taxes and fees were applied, the total comes out to $27.17"
+        ],
+        "productRows": [
+          {
+            "id": 7,
+            "name": "Striped Socks",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+            "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+            "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+            "price": 4.99,
+            "quantity": 1,
+            "totalPrice": 4.99
+          },
+          {
+            "id": 6,
+            "name": "Bar Code Shirts",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Barcode_wikipedia_shirt.svg",
+            "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+            "description": "So you can scan yourself in the checkout aisle.",
+            "price": 19.99,
+            "quantity": 1,
+            "totalPrice": 19.99
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "cool",
+      "email": "22@gmail.com",
+      "total": 652.4891250000001,
+      "receipt": {
+        "userInfo": {
+          "email": "22@gmail.com",
+          "name": "cool"
+        },
+        "lines": [
+          "Showing receipt for cool available at 22@gmail.com:",
+          "1 total Matching Rings purchased at a cost of $200.00 for a total cost of $200.00.",
+          "1 total Apple Watch purchased at a cost of $399.99 for a total cost of $399.99.",
+          "Before taxes, the subtotal was $599.99",
+          "After taxes and fees were applied, the total comes out to $652.49"
+        ],
+        "productRows": [
+          {
+            "id": 11,
+            "name": "Matching Rings",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wedding_rings.jpg/800px-Wedding_rings.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Wedding_rings.jpg",
+            "description": "Ball out and get one for each finger!",
+            "price": 200,
+            "quantity": 1,
+            "totalPrice": 200
+          },
+          {
+            "id": 12,
+            "name": "Apple Watch",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Apple_Watch.jpg/800px-Apple_Watch.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Apple_Watch.jpg",
+            "description": "Why check your phone all the time when you can check your watch all the time?",
+            "price": 399.99,
+            "quantity": 1,
+            "totalPrice": 399.99
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "buy",
+      "email": "rich@gmail.com",
+      "total": 719.044125,
+      "receipt": {
+        "userInfo": {
+          "email": "rich@gmail.com",
+          "name": "buy"
+        },
+        "lines": [
+          "Showing receipt for buy available at rich@gmail.com:",
+          "1 total Flamin Hot Cheetos purchased at a cost of $1.50 for a total cost of $1.50.",
+          "1 total Rice Krispies purchased at a cost of $0.99 for a total cost of $0.99.",
+          "1 total Fruit Medley purchased at a cost of $7.50 for a total cost of $7.50.",
+          "1 total Bar Code Shirts purchased at a cost of $19.99 for a total cost of $19.99.",
+          "1 total Striped Socks purchased at a cost of $4.99 for a total cost of $4.99.",
+          "1 total Cinnamon Rolls purchased at a cost of $2.99 for a total cost of $2.99.",
+          "1 total Coconut Water purchased at a cost of $3.25 for a total cost of $3.25.",
+          "1 total Knitted Beanie purchased at a cost of $19.99 for a total cost of $19.99.",
+          "1 total Apple Watch purchased at a cost of $399.99 for a total cost of $399.99.",
+          "1 total Matching Rings purchased at a cost of $200.00 for a total cost of $200.00.",
+          "Before taxes, the subtotal was $661.19",
+          "After taxes and fees were applied, the total comes out to $719.04"
+        ],
+        "productRows": [
+          {
+            "id": 2,
+            "name": "Flamin Hot Cheetos",
+            "category": "food",
+            "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+            "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+            "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+            "price": 1.5,
+            "quantity": 1,
+            "totalPrice": 1.5
+          },
+          {
+            "id": 1,
+            "name": "Rice Krispies",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+            "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
+            "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
+            "price": 0.99,
+            "quantity": 1,
+            "totalPrice": 0.99
+          },
+          {
+            "id": 5,
+            "name": "Fruit Medley",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Fruits.png",
+            "source": "https://commons.wikimedia.org/wiki/File:Fruits.png",
+            "description": "More fruit than you know what to do with!",
+            "price": 7.5,
+            "quantity": 1,
+            "totalPrice": 7.5
+          },
+          {
+            "id": 6,
+            "name": "Bar Code Shirts",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Barcode_wikipedia_shirt.svg",
+            "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+            "description": "So you can scan yourself in the checkout aisle.",
+            "price": 19.99,
+            "quantity": 1,
+            "totalPrice": 19.99
+          },
+          {
+            "id": 7,
+            "name": "Striped Socks",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+            "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+            "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+            "price": 4.99,
+            "quantity": 1,
+            "totalPrice": 4.99
+          },
+          {
+            "id": 3,
+            "name": "Cinnamon Rolls",
+            "category": "food",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "price": 2.99,
+            "quantity": 1,
+            "totalPrice": 2.99
+          },
+          {
+            "id": 4,
+            "name": "Coconut Water",
+            "category": "food",
+            "image": "https://assets.iceland.co.uk/i/iceland/vita_coco_the_original_coconut_water_1l_65611_T1.jpg?$pdpzoom$",
+            "source": "https://en.wikipedia.org/wiki/File:ONE_Pure_Coconut_Water.jpeg",
+            "description": "Somehow incredibly hydrating, while also not really being water.",
+            "price": 3.25,
+            "quantity": 1,
+            "totalPrice": 3.25
+          },
+          {
+            "id": 8,
+            "name": "Knitted Beanie",
+            "category": "clothing",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Blue_knit-cap_beanie_by_RobertLender.jpeg",
+            "source": "https://commons.wikimedia.org/wiki/File:Blue_knit-cap_beanie_by_RobertLender.jpeg",
+            "description": "Keeps your head absurdly warm while the rest of your body freezes.",
+            "price": 19.99,
+            "quantity": 1,
+            "totalPrice": 19.99
+          },
+          {
+            "id": 12,
+            "name": "Apple Watch",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Apple_Watch.jpg/800px-Apple_Watch.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Apple_Watch.jpg",
+            "description": "Why check your phone all the time when you can check your watch all the time?",
+            "price": 399.99,
+            "quantity": 1,
+            "totalPrice": 399.99
+          },
+          {
+            "id": 11,
+            "name": "Matching Rings",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wedding_rings.jpg/800px-Wedding_rings.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Wedding_rings.jpg",
+            "description": "Ball out and get one for each finger!",
+            "price": 200,
+            "quantity": 1,
+            "totalPrice": 200
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "someone",
+      "email": "@2a",
+      "total": 1087.5,
+      "receipt": {
+        "userInfo": {
+          "email": "@2a",
+          "name": "someone"
+        },
+        "lines": [
+          "Showing receipt for someone available at @2a:",
+          "5 total Matching Rings purchased at a cost of $200.00 for a total cost of $1,000.00.",
+          "Before taxes, the subtotal was $1,000.00",
+          "After taxes and fees were applied, the total comes out to $1,087.50"
+        ],
+        "productRows": [
+          {
+            "id": 11,
+            "name": "Matching Rings",
+            "category": "accessories",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wedding_rings.jpg/800px-Wedding_rings.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Wedding_rings.jpg",
+            "description": "Ball out and get one for each finger!",
+            "price": 200,
+            "quantity": 5,
+            "totalPrice": 1000
           }
         ]
       }

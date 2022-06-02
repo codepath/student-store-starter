@@ -3,7 +3,7 @@ import "./Navbar.css";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
-
+import { Link } from "react-router-dom";
 function Navbar({ setOpen }) {
   return (
     <header>
@@ -24,6 +24,7 @@ function Navbar({ setOpen }) {
           <a href="/#" onClick={() => setOpen(true)}>
             Buy Now
           </a>
+          <Link to="/purchases">Purchases</Link>
         </div>
       </nav>
     </header>

@@ -1,0 +1,15 @@
+.products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.dets {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 4rem auto;
+  gap: 15px;
+}
+.p {
+  padding: 20px;
+}

@@ -10,6 +10,24 @@ router.get("/", async (req, res, next) => {
     next(err);
   }
 });
+router.get("/purchases", async (req, res, next) => {
+  try {
+    const purchases = await Store.listPurchases();
+    res.status(200).json({ purchases });
+  } catch (err) {
+    next(err);
+  }
+});
+router.get("/purchases/:purchaseId", async (req, res, next) => {
+  try {
+    const purchaseId = req.params.purchaseId;
+
+    const purchase = await Store.fetchPurchaseById(purchaseId);
+    res.status(200).json({ purchase });
+  } catch (err) {
+    next(err);
+  }
+});
 
 router.get("/:productId", async (req, res, next) => {
   try {

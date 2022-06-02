@@ -9,6 +9,13 @@
   width: 50%;
   height: 50%;
 }
+.buy-button {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 12px;
+  background: #2c3f47;
+  color: white;
+}
 .www {
   width: 75%;
   margin: 8rem auto;

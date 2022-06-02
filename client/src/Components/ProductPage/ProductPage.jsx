@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import "./ProductPage.css";
 import { useParams } from "react-router";
 import { useState } from "react";
-export default function ProductPage() {
+export default function ProductPage({ addCart }) {
   let [product, setProduct] = useState(undefined);
   let [loading, setLoading] = useState(true);
   let params = useParams();
@@ -15,7 +15,7 @@ export default function ProductPage() {
   }, []);
   async function getData() {
     setLoading(true);
-    let product = await axios.get("http://localhost:3001/store/" + params.id);
+    let product = await axios.get(`http://localhost:3001/store/${params.id}`);
     setProduct(product.data.product);
   }
   useEffect(() => {
@@ -40,6 +40,10 @@ export default function ProductPage() {
           <h2>{category}</h2>
           <p>{description}</p>
           <p>${price}</p>
+          <br />
+          <button class="buy-button" onClick={() => addCart(product)}>
+            Add to cart
+          </button>
         </div>
       </div>
     );

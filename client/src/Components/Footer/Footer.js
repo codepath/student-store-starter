@@ -1,5 +1,9 @@
 import React from "react";
-
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import "./Footer.css";
 export default function Footer() {
   return (
@@ -40,9 +44,31 @@ export default function Footer() {
           </ul>
           <ul class="section">
             <h4>Socials</h4>
+            <li>
+              <FacebookIcon />
+              &nbsp; Facebook
+            </li>
+            <li>
+              <TwitterIcon />
+              &nbsp; Twitter
+            </li>
+            <li>
+              <LinkedInIcon />
+              &nbsp;LinkedIn
+            </li>
+            <li>
+              <InstagramIcon />
+              &nbsp;Instagram
+            </li>
+            <li>
+              <YouTubeIcon />
+              &nbsp;Youtube
+            </li>
           </ul>
           <ul class="section">
             <h4>Our App</h4>
+            <img src={require("./app.png")} width="75%" />
+            <img src={require("./app2.png")} width="80%" />
           </ul>
         </div>
         <br /> <br /> <br /> <br /> <br /> <br />

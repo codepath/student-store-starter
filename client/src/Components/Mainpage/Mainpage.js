@@ -7,6 +7,9 @@ import ProductPage from "../ProductPage/ProductPage";
 import { useEffect, useState } from "react";
 import Footer from "../Footer/Footer";
 import axios from "axios";
+import PurchasePage from "../PurchasePage/PurchasePage";
+import PurchaseDetails from "../PurchaseDetails/PurchaseDetails";
+
 import { Routes, Route, useNavigate } from "react-router-dom";
 
 function Mainpage() {
@@ -45,7 +48,7 @@ function Mainpage() {
 
   async function getData() {
     setLoading(true);
-    axios.get("http://localhost:3001/store").then((data) => {
+    axios.get(`http://localhost:3001/store`).then((data) => {
       setAllProducts(data.data.products);
       setProducts(data.data.products);
     });
@@ -95,13 +98,29 @@ function Mainpage() {
       <div>
         <Sidebar open={open} setOpen={setOpen} setCart={setCart} cart={cart} />
         <Navbar setOpen={setOpen} />
-        <ProductPage />
+        <ProductPage addCart={addCart} />
+      </div>
+    );
+    let purchasePage = (
+      <div>
+        <Sidebar open={open} setOpen={setOpen} setCart={setCart} cart={cart} />
+        <Navbar setOpen={setOpen} />
+        <PurchasePage />
+      </div>
+    );
+    let purchaseDetails = (
+      <div>
+        <Sidebar open={open} setOpen={setOpen} setCart={setCart} cart={cart} />
+        <Navbar setOpen={setOpen} />
+        <PurchaseDetails />
       </div>
     );
     return (
       <Routes>
         <Route path="/:id" element={productPage} />
         <Route path="*" element={mainpage} />
+        <Route path="/purchases" element={purchasePage} />
+        <Route path="/purchases/:id" element={purchaseDetails} />
       </Routes>
     );
   } else {

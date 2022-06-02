@@ -1,0 +1,9 @@
+.wr {
+  width: 75%;
+  margin: 4rem auto;
+}
+.purchases {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 15px;
+}
